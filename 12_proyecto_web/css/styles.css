@@ -62,9 +62,9 @@
 
 /*NOTA IMPORTANTE FIN*/
 
-
+/*NOTA SECUNDARIA INICIO*/
 #notas_secundarias{
-  height:300px;
+    min-height:300px;
     width: 700px;
     display: inline-block;
     float:left;
@@ -72,6 +72,23 @@
   
 }
 
+#notas_secundarias article{
+    display: flex;
+}
+
+#notas_secundarias figure{
+    margin: 0;
+    position: relative;
+}
+
+#notas_secundarias figure span{
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    padding: 5px 10px;
+    background-color: lightgrey;
+}
+/* NOTA SECUNDARIA FIN*/
 #publicidad{
     height:300px;
     width:220px;
