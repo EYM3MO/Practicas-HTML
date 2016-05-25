@@ -5,6 +5,11 @@
     margin: 10px;
 }*/
 
+/* reset css */
+h1,h2,h3,h4,h5,h6,figure,p{
+    margin:0;
+    padding: 0;
+}
 .container {
     width: 920px;
     margin: 0 auto;
@@ -69,25 +74,37 @@
     display: inline-block;
     float:left;
     background-color: gray;
-  
 }
 
 #notas_secundarias article{
     display: flex;
 }
 
-#notas_secundarias figure{
-    margin: 0;
+.imagen-nota-secundaria {
     position: relative;
 }
 
-#notas_secundarias figure span{
+.imagen-nota-secundaria  span{
     position: absolute;
     top: 10px;
     left: -5px;
     padding: 5px 10px;
-    background-color: lightgrey;
+    background-color: lightgray;
 }
+.titulo-nota-secundaria{
+    line-height: 0.9em;
+    font-variant: small-caps;
+}
+.cuerpo-nota-secundaria{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.intro-nota-secundaria{
+    text-align: justify;
+    font-size: 1.1em;
+    margin=
+}
+
 /* NOTA SECUNDARIA FIN*/
 #publicidad{
     height:300px;
@@ -156,4 +173,20 @@
     display:none;/* oculta objetos*/
 }
 
+.boton {
+    background:#AA3521;
+    display: inline-block;
+    padding: 3px;
+    box-shadow: 0px 1px 3px darkgray;
+}
 
+.boton>div{
+    padding: 1px 20px;
+    border: 1px solid rgba(255,255,255,.7);
+}
+
+.boton p{
+    color: white;
+    font-variant: small-caps;
+    font-size:  1.1em;
+}
