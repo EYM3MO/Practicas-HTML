@@ -32,12 +32,12 @@ h1,h2,h3,h4,h5,h6,figure,p{
 }
 
 #encabezado figure{
-    margin:0px;
+    margin: 0px;
     
 }
 
 #titulos *{
-    margin:0px;
+    margin: 0px;
 }
 
 #encabezado h1{font-size: 1.2em; text-decoration: underline;}
@@ -53,6 +53,7 @@ h1,h2,h3,h4,h5,h6,figure,p{
 
 #nota_importante{
     height:360px;
+    background-color: #6bc6a3;
     margin: 20px 0;
     /* box-shadow: horizontal vertical blur color*/
     box-shadow: 0 0 15px darkgray;
@@ -73,15 +74,24 @@ h1,h2,h3,h4,h5,h6,figure,p{
     width: 700px;
     display: inline-block;
     float:left;
-    background-color: gray;
+    background-color: white;
 }
-
+/* 1 punto carpeta en la que estas con dos sales*/
 #notas_secundarias article{
     display: flex;
+    background-image: url('../images/separador.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 40px;
+    margin-bottom: 2opx;
 }
 
 .imagen-nota-secundaria {
     position: relative;
+}
+
+.sombra-imagen{
+   box-shadow: 0px 0px 5px #bdbdbd;    
 }
 
 .imagen-nota-secundaria  span{
@@ -92,6 +102,7 @@ h1,h2,h3,h4,h5,h6,figure,p{
     background-color: lightgray;
 }
 .titulo-nota-secundaria{
+    font-size: 1.7em;
     line-height: 0.9em;
     font-variant: small-caps;
 }
@@ -101,8 +112,7 @@ h1,h2,h3,h4,h5,h6,figure,p{
 }
 .intro-nota-secundaria{
     text-align: justify;
-    font-size: 1.1em;
-    margin=
+    margin=10px 0 !important;
 }
 
 /* NOTA SECUNDARIA FIN*/
@@ -119,11 +129,11 @@ h1,h2,h3,h4,h5,h6,figure,p{
 #pie{
     height: 150px;
     background-color: yellow;
-    clear:both;
+    clear: both;
 }
 
 
-#menu{
+#menu {
     height: 50px;
     display: flex;
     justify-content: center;
@@ -131,13 +141,13 @@ h1,h2,h3,h4,h5,h6,figure,p{
 }
 
 
-#menu ul{
+#menu ul {
     padding: 0;
     
 }
 
 
-#menu li{
+#menu li {
     list-style-type: none;
     padding: 0px;
     display: inline-block;
@@ -158,12 +168,11 @@ h1,h2,h3,h4,h5,h6,figure,p{
 
 #menu>ul>li>a{
     padding: 10px;
-    background-color:darkgrey;
+    background-color: darkgray;
 }
 
 
 #menu>ul>li>a:hover{
-    
     background-color:lightgray;
     transition: 1s;
 }
@@ -185,7 +194,7 @@ h1,h2,h3,h4,h5,h6,figure,p{
     border: 1px solid rgba(255,255,255,.7);
 }
 
-.boton p{
+.boton p {
     color: white;
     font-variant: small-caps;
     font-size:  1.1em;
