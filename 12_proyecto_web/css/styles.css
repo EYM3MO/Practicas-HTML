@@ -121,10 +121,13 @@ h1,h2,h3,h4,h5,h6,figure,p{
     width:220px;
     display: inline-block;
     float:right;
-    background-color: orange;
+    background-color: white;
 
 }
 
+#publicidad img{
+   
+}
 
 #pie{
     height: 150px;
@@ -137,7 +140,7 @@ h1,h2,h3,h4,h5,h6,figure,p{
     height: 50px;
     display: flex;
     justify-content: center;
-    background-color: darkgray;
+    background-color: lightgray;
 }
 
 
@@ -168,12 +171,12 @@ h1,h2,h3,h4,h5,h6,figure,p{
 
 #menu>ul>li>a{
     padding: 10px;
-    background-color: darkgray;
+    background-color: lightgray;
 }
 
 
 #menu>ul>li>a:hover{
-    background-color:lightgray;
+    background-color:darkgray;
     transition: 1s;
 }
 
@@ -198,4 +201,12 @@ h1,h2,h3,h4,h5,h6,figure,p{
     color: white;
     font-variant: small-caps;
     font-size:  1.1em;
+}
+.flexible {
+    display: flex;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
 }
